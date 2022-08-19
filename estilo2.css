@@ -1,0 +1,93 @@
+/*estilo2.css*/
+
+body{
+    text-align: center;
+    margin:0.5em auto;
+    border: 2px solid yellowgreen;
+    background-color: #ffffcc;
+    width: 80%;
+
+}
+
+#container{
+    background-color: lightcoral;
+    border: 2px solid blueviolet;
+    width: 90%;
+    height: fit-content;
+    margin: 1em;
+    padding: 0.9em;
+    
+}
+
+#topo{
+    background-color: rgb(104, 175, 233);
+    border: 2px solid purple;
+    margin: 0.5em 0;
+    height: 380px;
+
+
+    display: flex;
+    flex-direction:row; /* row | column*/
+   
+
+}
+
+#base{
+    background-color: rgb(104, 175, 233);
+    border: 2px solid purple;
+    margin: 0.5em 0;
+    /*padding: 0.5em 0.1em 0.5em 0.1em;*/
+    /*width: 90%;*/
+    height: 380px;
+
+    display: flex;
+    /* Direção da distribuição de itens */
+    flex-direction:row; /* row | column*/
+    /* Alinhamento no eixo principal */
+   
+    justify-content: center;
+
+}
+
+.item{
+    border: 2px solid green;
+    background-color: gray;
+    height: 50%;
+}
+
+.um{
+    margin: auto auto 0 13%;
+    width: 15%;
+}
+
+.dois{
+    margin: 0 auto auto auto;
+    width: 15%;
+   
+}
+
+.tres{
+    margin: auto 13% auto auto;
+    width: 15%;
+    
+}
+
+.quatro{
+    height: 99%;
+    width: 25%;
+    background-color: #d699ff;
+}
+
+.cinco{
+    height: 99%;
+    width: 50%;
+    background-color: #3399ff;
+   
+}
+
+.seis{
+   height: 99%;
+    width: 25%;
+    background-color: #d699ff;
+    
+}
